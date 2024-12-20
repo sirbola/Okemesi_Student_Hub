@@ -3,12 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up Page</title>
+  <title>Sign_Up Page</title>
+  <link rel="stylesheet" href="../Styles/style.css">
 </head>
-<body>
-  <form>
-    <h2>STUDENT REGISTRATION</h2>
+<style> 
+  .login-body {
+    margin: 0;
+    background: linear-gradient(135deg, #4311cb, #25a6fc);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+  }
+  #login-form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px;
+    height: 100%;
+    margin-top: 40px;
+    border: 1px solid #000; 
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+  }
+  .form-head {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  #login-form input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #243665;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
     
+  } 
+  #login-form label {
+    font-size: 18px;
+     color: #fff;
+  }
+
+  #login-form input::placeholder {
+    color: ;
+    padding-left: 5px;
+  }
+  #login-form button {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ffffff;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #243665;
+  }
+  .new {
+    text-align: center;
+  }
+  .new a {
+    text-decoration: none;
+    color: #00ff88;
+  }
+  .new a:hover {
+    color: rgb(155, 155, 0);
+  }
+</style>
+<body class="login-body">
+  <form id="login-form">
+    <div>
+      <h2 class="form-head">ACCOUNT SIGN UP</h2>
+      <p><label>Full Name</label></p>
+      <p><input type="text" placeholder="Input your Full Name" required></p>
+      <p><label>Username</label></p>
+      <p><input type="text" placeholder="Input your Username" required></p>
+      <p><label>Email</label></p>
+      <p><input type="text" placeholder="Input a functioning Email" required></p>
+      <p><label>Password</label></p>
+      <p><input type="password" placeholder="Enter your password" required></p>
+      <p><button>Sign Up</button></p>
+      <p class="new">Already have an account? <a href="login.html">Log In</a> </p>
+    </div>
   </form>
 </body>
 </html>

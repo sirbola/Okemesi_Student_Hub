@@ -8,22 +8,20 @@
 </head>
 <style> 
   .login-body {
-    background-image: 
-     url(../assest/581c92c532caf9406aee6941f3714ffc.jpg);
+    margin: 0;
+     background: linear-gradient(135deg, #4311cb, #25a6fc);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
-
   }
   #login-form {
     display: flex;
     justify-content: center;
     margin: auto;
-    max-width: 300px;
-    height: 100%;
+    max-width: 350px;
     margin-top: 40px;
-    border: 1px solid #8bd8bd; 
+    border: 1px solid #000; 
     border-radius: 10px;
     padding-left: 10px;
     background-color: transparent;
@@ -32,12 +30,10 @@
   .form-head {
     font-size: 20px;
     text-align: center;
-    color: #243665;
+    color: #fff;
   }
   #login-form input {
-    display: flex;
-    justify-content: center;
-    width: 250px;
+    width: 300px;
     height: 30px;
     border: 1px solid #243665;
     border-radius: 5px;
@@ -46,7 +42,7 @@
   } 
   #login-form label {
     font-size: 18px;
-     color: #243665;
+     color: #fff;
   }
 
   #login-form input::placeholder {
@@ -56,8 +52,8 @@
   #login-form button {
     font-size: 18px;
     font-weight: bolder;
-    color: #8bd8bd;
-    width: 250px;
+    color: #fff;
+    width: 300px;
     height: 30px;
     border: 1px solid rgb(0, 31, 77);
     border-radius: 10px;
@@ -68,7 +64,7 @@
   }
   .new a {
     text-decoration: none;
-    color: #243665;
+    color: #00ff88;
   }
   .new a:hover {
     color: rgb(155, 155, 0);
@@ -83,7 +79,7 @@
       <p><label>Password</label></p>
       <p><input type="password" placeholder="Enter your password" required></p>
       <p><button>Log In</button></p>
-      <p class="new">Create new account? <a href="sign_up.html">Click Here</a> </p>
+      <p class="new">Didn't have an account? <a href="sign_up.html">Sign Up</a> </p>
     </div>
   </form>
 </body>
